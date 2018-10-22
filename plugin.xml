@@ -41,6 +41,20 @@
       <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE" />
       <permission android:name="$PACKAGE_NAME.permission.RECEIVE_ADM_MESSAGE" android:protectionLevel="signature" />
       <uses-permission android:name="$PACKAGE_NAME.permission.RECEIVE_ADM_MESSAGE" />
+        <uses-permission android:name="com.sec.android.provider.badge.permission.READ" tools:node="remove" />
+        <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" tools:node="remove" />
+        <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" tools:node="remove" />
+        <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" tools:node="remove" />
+        <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" tools:node="remove" />
+        <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" tools:node="remove" />
+        <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" tools:node="remove" />
+        <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" tools:node="remove" />
+        <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" tools:node="remove"/>
+        <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" tools:node="remove" />
+        <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" tools:node="remove" />
+        <uses-permission android:name="android.permission.READ_APP_BADGE" tools:node="remove" />
+        <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" tools:node="remove" />
+        <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" tools:node="remove" />
     </config-file>
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
       <amazon:enable-feature android:name="com.amazon.device.messaging" android:required="false" xmlns:amazon="http://schemas.amazon.com/apk/res/android" />

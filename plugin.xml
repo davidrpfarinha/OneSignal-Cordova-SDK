@@ -55,9 +55,7 @@
         </intent-filter>
       </receiver>
     </config-file>
-    <config-file target="AndroidManifest.xml" parent="/manifest/application">
-      <meta-data android:name="com.onesignal.BadgeCount" android:value="DISABLE" />
-    </config-file>
+      
     <source-file src="src/android/com/plugin/gcm/OneSignalPush.java" target-dir="src/com/plugin/gcm/" />
   </platform>
   
